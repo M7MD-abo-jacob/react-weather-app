@@ -1,0 +1,28 @@
+.snow {
+    position: relative;
+}
+
+.snow span {
+    position: absolute;
+    color: #defd;
+    left: var(--snow-left);
+    top: var(--snow-top);
+    font-size: var(--snow-size);
+    border-radius: 50%;
+    animation: snowing 5s linear infinite;
+    animation-duration: calc(30s / var(--snow-sp));
+    transform-origin: bottom;
+    z-index: -99;
+}
+
+@keyframes snowing {
+    0% {
+        transform: translate(0) scale(1) rotate(0deg);
+    }
+    70% {
+        transform: translate(30px, var(--h)) scale(1) rotate(360deg);
+    }
+    100% {
+        transform: translate(30px, var(--h)) scale(0) rotate(360deg);
+    }
+}

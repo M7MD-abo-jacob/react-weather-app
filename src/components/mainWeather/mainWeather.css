@@ -1,0 +1,28 @@
+.main-w {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #0001;
+    border-radius: 10px;
+    padding-inline: 0.3rem;
+}
+
+.main-w .left {
+    text-align: start;
+}
+
+.main-w .right {
+    text-align: end;
+}
+
+.name {
+    font-size: 1.6rem;
+}
+
+.temp {
+    font-size: 3rem;
+}

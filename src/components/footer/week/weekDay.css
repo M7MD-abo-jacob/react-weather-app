@@ -1,0 +1,50 @@
+.day {
+    padding-block: 0.4rem;
+    margin-bottom: 0.2rem;
+    border-radius: 10px;
+    display: flex;
+    background-color: #0001;
+    /* justify-content: space-around; */
+    align-items: center;
+    align-content: center;
+}
+
+
+/* .day+.day {
+    border-top: 1px dotted white;
+} */
+
+.day div {
+    margin-inline: auto;
+    width: 33%;
+}
+
+.day img {
+    padding: 0;
+    width: 25%;
+}
+
+.day img+img {
+    margin-left: 0.4rem;
+}
+
+.day-name p {
+    display: inline-block;
+}
+
+.day-status {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+    .day {
+        flex-direction: column;
+        width: 19.5%;
+    }
+    .day div {
+        width: 100%;
+    }
+}
