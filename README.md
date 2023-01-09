@@ -3,8 +3,9 @@
 ## About this website
 - A weather forcast website that uses data from [OpenWeatherMap](https://openweathermap.org)
 - And city names and autu completion from [teleport api](teleport.org)
-- This website features beautiful dynamic animations according to the weather status.  
-> search for different cities to see different animations for day / night time - sunny / rainy / snowy weather.
+- This website features beautiful dynamic animations according to the weather status.
+
+> **_NOTE:_** *search for different cities to see different animations for day / night time - sunny / rainy / snowy weather.*
 
 ## Technologies used:
 - ReactJs
