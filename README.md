@@ -1,13 +1,13 @@
-# Hi there!
+# Hello there!
 
 ## About this website
 - A weather forcast website that uses data from [OpenWeatherMap api](https://openweathermap.org)
-- And city names and autu completion from [teleport api](teleport.org)
+- And city names and auto completion from [teleport api](teleport.org)
 - This website features beautiful dynamic animations according to the weather status.
 
 > **_NOTE:_** *search for different cities to see different animations for day / night time - sunny / rainy / snowy weather.*
 
-## Technologies used:
+## Technologies used
 - ReactJs
 - Axios
 - OpenWeatherMap api
