@@ -1,16 +1,19 @@
-# react-weather-app
-learning react.js by making a weather app
+# Hi there!
 
-Check it out live:
-https://m7md-abo-jacob.github.io/react-weather-app/
+## About this website
+- A weather forcast website that uses data from [OpenWeatherMap](https://openweathermap.org)
+- And city names and autu completion from [teleport api](teleport.org)
+- This website features beautiful dynamic animations according to the weather status.  
+> search for different cities to see different animations for day / night time - sunny / rainy / snowy weather.
 
-code:
-https://github.com/M7MD-abo-jacob/react-weather-app-code
+## Technologies used:
+- ReactJs
+- Axios
+- OpenWeatherMap api
+- Teleport cities api
 
-Hello there!
-Thanks for checking this project
-This is a test project, made for the purpose of trying out React Framework, functional components, API calls, animation and other modern features.
-Different cities with different timezones (day/night) and different weater statuses (snow/rain/clear...) show different dynamic weather animations and styles.
-It isn't perfect because of the lack of access to free APIs that are not restricted in my region, but I'm happy with what I've managed to achive, as the journey is what really matters to me.
+## Check it out [here.](https://my-dynamic-weather.vercel.app/)
 
-My Portfolio: https://m7md-abo-jacob.github.io/Responsive-Portfolio/
+## Check out [my portfolio](https://mohammad-kikhia.vercel.app/) for more.
+
+# THANKS FOR STOPPING BY. ❤
